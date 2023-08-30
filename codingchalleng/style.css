@@ -1,0 +1,112 @@
+
+ /* fa si che non si sommino le dimensione di bordi e margini */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.logo{
+    transform: scale(0.8); 
+    /* rimoicciolire il logo */
+}
+
+.quadrato{
+    background-color: rgba(0,0,0,0.7);
+    width: 70%;
+    height: 50%;
+    /* lo stacco dai bordi */
+    margin-top: 2%;
+    margin-bottom: 10%;
+    margin-left: 18%;
+    /* creo distacco tra contenuto e bordo */
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.container{
+    z-index: 1; /*è come se creassi un livello sopra*/
+    color: aliceblue;
+    /* per far si che il contenuto non eriditi la trasoarenza */
+}
+
+header{
+    text-align: center; 
+}
+
+#sottotitolo{
+    color: #00dd00;
+    font-size: 80px;
+    margin-bottom: 30px; 
+    /* fa creare uno stacco con la scritta sotto */
+}
+
+nav{
+    background-color: #00dd00;
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+    margin-bottom: 30PX; 
+    /* fa creare uno stacco con la scritta sotto */
+}
+
+.bottone{
+    background-color: white;
+    padding: 8px 16px;
+    margin: 30px 10px;
+    font-size: 30px;
+}
+
+main{
+    text-align: left;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.miniquadrato:after{
+    content: "\220E";
+}
+
+.miniquadrato{
+    color: aliceblue;
+    font-size: 80px;
+}
+
+.Monopattino{
+    color: aliceblue;
+    font-size: 80px;
+    margin-TOP: 50PX;
+}
+
+.luogo, .carica{
+    color: aliceblue;
+    font-size: 50px;
+}
+
+#caricaM1{
+    background-color: rgb(255, 173, 59) ;
+    width: 900px;
+    height: 70px;
+    margin-bottom: 50PX; 
+    /* fa creare uno stacco con la scritta sotto */
+}
+
+#caricaM2{
+    background-color: #00dd00;
+    width: 1500px;
+    height: 70px;
+    margin-bottom: 50PX;
+}
+
+#caricaM3{
+    background-color: brown ;
+    width: 300px;
+    height: 70px;
+    margin-bottom: 50PX; 
+}
