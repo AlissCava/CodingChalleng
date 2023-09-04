@@ -32,8 +32,7 @@ body{
 
 .container{
     z-index: 1; /*è come se creassi un livello sopra*/
-    color: aliceblue;
-    /* per far si che il contenuto non eriditi la trasoarenza */
+    /* per far si che il contenuto non eriditi la trasparenza */
 }
 
 header{
